@@ -1,0 +1,28 @@
+/* To add scroll-bar */
+
+.short-biography-text {
+    height: 150px;
+    overflow-y: auto;
+}
+
+
+/* To make scroll-bar invisible */
+
+.short-biography-text {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.short-biography-text::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+
+/* To style bullets of list */
+
+ul {
+    list-style-type: square;
+}
